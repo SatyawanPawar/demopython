@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Relative URLS</title>
+  </head>
+  <body>
+    <h1>Welcome to Relative Urls</h1>
+    <!--url 'name uder basic app : name of url'-->
+    <p><a href="{% url 'basic_app:other' %}">THE OTHER PAGE</a></p>
+    <p><a href="{% url 'admin:index' %}">Admin Panel</a></p>
+    <p><a href="{% url 'index' %}">Home Page</a></p>
+  </body>
+</html>
